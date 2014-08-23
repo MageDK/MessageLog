@@ -4,7 +4,11 @@ import 	java.lang.StackTraceElement;
 
 /**
  * The androidOutput class will log messages for android devices using 
- * the android.util.Log class.
+ * the android.util.Log class.  It's simple and straight forward to us.
+ * You can specify the types of messages you want to capture by setting the Log Level.  The different
+ * message types are: 
+ * LOG_ALL, LOG_DEBUG, LOG_SQL, LOG_MESSAGE, LOG_ERROR.
+ * By default the log will only capture LOG_ERROR messages.
  * 
  * @author <A HREF="mailto:emildiego@gmail.com">Emil Diego</A>
  * @copy Copyright 2014
